@@ -1,102 +1,165 @@
 # bank-program
-🏦 Bank Account Management System
+🏦 Secure Bank Account Management System
 
-A console-based bank account management system in Python that allows users to deposit, withdraw, view balance, and track transaction history. All account data is persistently stored in a JSON file.
+A secure, console-based banking system built with Python that allows users to manage their account balance, perform transactions, and securely authenticate using a 4-digit PIN.
 
-This version includes PIN authentication and improved input handling for PyCharm and other IDEs.
+This project demonstrates:
 
-✨ Features
+Object-Oriented Programming (OOP)
 
-💰 Check Balance – Display your current account balance
+File persistence using JSON
 
-🏦 Deposit Funds – Add money to your account
+Secure authentication logic
 
-💸 Withdraw Funds – Withdraw money with automatic balance check
+Input validation and error handling
 
-📜 Transaction History – View all transactions with type, amount, balance, and timestamp
+Professional code structure
 
-🔐 PIN Authentication – Secure your account with a 4-digit PIN
+📌 Project Overview
 
-📂 Persistent Storage – All data saved automatically in account.json
+This application simulates a simple banking system where users can:
 
-🎨 User-Friendly Console Interface – Clear formatting, readable messages
+View account balance
 
-🛡️ Input Validation – Accepts $ and comma-formatted numbers
+Deposit funds
 
-⚡ Installation
-Prerequisites
+Withdraw funds (with balance validation)
 
-Python 3.6+ installed
+View full transaction history
 
-Optional: Git to clone the repository
+Secure their account using a PIN
 
-Steps
+All account data is stored locally in a structured JSON file.
 
-Clone the repository or download the project:
+🚀 Features
+🔐 Security
 
-git clone <repository-url>
+4-digit PIN authentication
 
+3 login attempts before exit
 
-Navigate to the project folder:
+PIN stored persistently
 
-cd bank-account-program
+💰 Financial Operations
 
+Accurate money calculations using Decimal
 
-Run the program:
+Deposit validation (positive amounts only)
 
+Withdrawal validation (prevents overdraft)
+
+📂 Data Persistence
+
+Automatically saves:
+
+Balance
+
+Transaction history
+
+PIN
+
+Uses account.json
+
+🧾 Transaction Logging
+
+Each transaction stores:
+
+Type (Deposit/Withdrawal)
+
+Amount
+
+Timestamp
+
+Balance after transaction
+
+🛡 Input Handling
+
+Accepts:
+
+$500
+
+1,000
+
+1000
+
+Prevents invalid numeric input
+
+🛠 Technologies Used
+
+Python 3
+
+json module
+
+decimal module (for financial precision)
+
+datetime
+
+Object-Oriented Programming principles
+
+📦 Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/bank-account-system.git
+
+2️⃣ Navigate Into Project Folder
+cd bank-account-system
+
+3️⃣ Run the Program
 python bank_account.py
 
-📝 Usage
 
-Set or enter your PIN at startup:
+Works perfectly in:
 
-If no PIN exists, you’ll be prompted to create one.
+✅ PyCharm
 
-Enter a 4-digit PIN to secure your account.
+✅ VS Code
 
-Main menu options:
+✅ Command Prompt / Terminal
 
-1. Show balance
-2. Deposit
-3. Withdraw
-4. Transaction History
-5. Exit
+🖥 Program Flow
 
+User sets or enters a 4-digit PIN
 
-Select the option by entering 1-5.
+Main menu appears
 
-For deposits and withdrawals, enter the amount when prompted.
+User selects an option (1–5)
 
-Transactions are automatically saved to account.json.
+Data is automatically saved after every transaction
 
-Example
+📁 Project Structure
+📦 bank-account-system
+ ┣ 📜 bank_account.py
+ ┣ 📜 account.json
+ ┗ 📜 README.md
 
-Depositing $500:
+🧠 What This Project Demonstrates
 
-Enter amount to deposit: $500
-✓ Deposit successful! New balance: $500.00
+✔ Clean OOP design
+✔ Real-world financial logic
+✔ Data persistence
+✔ Error handling
+✔ User authentication
+✔ Clean console UI formatting
 
+This makes it a strong beginner-to-intermediate portfolio project.
 
-Viewing Transaction History:
+🔮 Future Improvements
 
-Transaction Type   Amount       Balance      Date & Time
-DEPOSIT            $500.00      $500.00      2026-02-15 15:42:10
+🔐 Hash PIN instead of storing plain text
 
-📁 File Structure
-bank_account.py      # Main program script
-account.json         # JSON file storing balance, transactions, and PIN
-README.md            # Project documentation
+🖥 Add graphical user interface (Tkinter)
 
-🚀 Future Improvements
+🌐 Convert to web app (Flask/Django)
 
-🖥️ GUI Interface – Build a graphical version with Tkinter or PyQt
+📊 Add spending analytics
 
-📆 Interest & Fees – Add monthly interest or transaction fees
-
-🔍 Transaction Filters – Sort or filter transactions by type, date, or amount
-
-🔐 Advanced Security – Hash PINs for extra security
+🏦 Multi-user account support
 
 📜 License
+
+👨‍💻 Author
+
+Allan Kamau
+Aspiring Software Developer
+GitHub: https://github.com/Allankw-dev
 
 This project is open-source and available under the MIT License.
