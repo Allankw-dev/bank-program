@@ -156,7 +156,7 @@ This makes it a strong beginner-to-intermediate portfolio project.
 
 📜 License
 
-👨‍💻 Author
+👨‍💻 Author.
 
 Allan Kamau
 Aspiring Software Developer
