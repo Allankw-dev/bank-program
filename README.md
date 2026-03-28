@@ -5,7 +5,7 @@ A secure, console-based banking system built with Python that allows users to ma
 
 This project demonstrates:
 
-Object-Oriented Programming (OOP).
+Object-Oriented Programming (OOP)..
 
 File persistence using JSON
 
