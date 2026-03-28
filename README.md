@@ -1,5 +1,5 @@
 # bank-program.
-🏦 Secure Bank Account Management System.
+🏦 Secure Bank Account Management System..
 
 A secure, console-based banking system built with Python that allows users to manage their account balance, perform transactions, and securely authenticate using a 4-digit PIN.
 
