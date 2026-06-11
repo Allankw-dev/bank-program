@@ -13,7 +13,7 @@ class BankAccount:
         self.load_data()
 
     def load_data(self):
-        """Load account data from file if it exists"""
+        """Load account data from file if it exists."""
         if os.path.exists(self.filename):
             try:
                 with open(self.filename, 'r') as f:
