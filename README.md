@@ -1,137 +1,124 @@
-# bank-program..
+# bank-program
+
 🏦 Secure Bank Account Management System.
 
 A secure, console-based banking system built with Python that allows users to manage their account balance, perform transactions, and securely authenticate using a 4-digit PIN.
 
 This project demonstrates:
 
-Object-Oriented Programming (OOP).
+- Object-Oriented Programming (OOP)
+- File persistence using JSON
+- Secure authentication logic
+- Input validation and error handling
+- Professional code structure
 
-File persistence using JSON
-
-Secure authentication logic
-
-Input validation and error handling
-
-Professional code structure
-
-📌 Project Overview
+## 📌 Project Overview
 
 This application simulates a simple banking system where users can:
 
-View account balance
-
-Deposit funds
-
-Withdraw funds (with balance validation)
-
-View full transaction history
-
-Secure their account using a PIN
+- View account balance
+- Deposit funds
+- Withdraw funds (with balance validation)
+- View full transaction history
+- Secure their account using a PIN
 
 All account data is stored locally in a structured JSON file.
 
-🚀 Features
-🔐 Security
+## 🚀 Features
 
-4-digit PIN authentication
+### 🔐 Security
 
-3 login attempts before exit
+- 4-digit PIN authentication
+- 3 login attempts before exit
+- PIN stored persistently
 
-PIN stored persistently
+### 💰 Financial Operations
 
-💰 Financial Operations
+- Accurate money calculations using Decimal
+- Deposit validation (positive amounts only)
+- Withdrawal validation (prevents overdraft)
 
-Accurate money calculations using Decimal
-
-Deposit validation (positive amounts only)
-
-Withdrawal validation (prevents overdraft)
-
-📂 Data Persistence
+### 📂 Data Persistence
 
 Automatically saves:
 
-Balance
+- Balance
+- Transaction history
+- PIN
 
-Transaction history
+Uses `account.json`.
 
-PIN
-
-Uses account.json
-
-🧾 Transaction Logging
+### 🧾 Transaction Logging
 
 Each transaction stores:
 
-Type (Deposit/Withdrawal)
+- Type (Deposit/Withdrawal)
+- Amount
+- Timestamp
+- Balance after transaction
 
-Amount
-
-Timestamp
-
-Balance after transaction
-
-🛡 Input Handling
+### 🛡 Input Handling
 
 Accepts:
 
-$500
+- `$500`
+- `1,000`
+- `1000`
 
-1,000
+Prevents invalid numeric input.
 
-1000
+## 🛠 Technologies Used
 
-Prevents invalid numeric input
+- Python 3
+- `json` module
+- `decimal` module (for financial precision)
+- `datetime`
+- Object-Oriented Programming principles
 
-🛠 Technologies Used
+## 📦 Installation & Setup
 
-Python 3
+### 1️⃣ Clone the Repository
 
-json module
+```bash
+git clone https://github.com/Allankw-dev/bank-program.git
+```
 
-decimal module (for financial precision)
+### 2️⃣ Navigate Into Project Folder
 
-datetime
+```bash
+cd bank-program
+```
 
-Object-Oriented Programming principles
+### 3️⃣ Run the Program
 
-📦 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/bank-account-system.git
-
-2️⃣ Navigate Into Project Folder
-cd bank-account-system
-
-3️⃣ Run the Program
-python bank_account.py
-
+```bash
+python "Bank program.py"
+```
 
 Works perfectly in:
 
-✅ PyCharm
+- ✅ PyCharm
+- ✅ VS Code
+- ✅ Command Prompt / Terminal
 
-✅ VS Code
+## 🖥 Program Flow
 
-✅ Command Prompt / Terminal
+1. User sets or enters a 4-digit PIN
+2. Main menu appears
+3. User selects an option (1–5)
+4. Data is automatically saved after every transaction
 
-🖥 Program Flow
+## 📁 Project Structure
 
-User sets or enters a 4-digit PIN
+```
+📦 bank-program
+┣ 📜 Bank program.py
+┣ 📜 account.json   (created automatically on first run)
+┣ 📜 LICENSE
+┗ 📜 README.md
+```
 
-Main menu appears
-
-User selects an option (1–5)
-
-Data is automatically saved after every transaction
-
-📁 Project Structure
-📦 bank-account-system
- ┣ 📜 bank_account.py
- ┣ 📜 account.json
- ┗ 📜 README.md
-
-🧠 What This Project Demonstrates
+## 🧠 What This Project Demonstrates
 
 ✔ Clean OOP design
 ✔ Real-world financial logic
@@ -142,24 +129,20 @@ Data is automatically saved after every transaction
 
 This makes it a strong beginner-to-intermediate portfolio project.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
-🔐 Hash PIN instead of storing plain text
+- 🔐 Hash PIN instead of storing plain text
+- 🖥 Add graphical user interface (Tkinter)
+- 🌐 Convert to web app (Flask/Django)
+- 📊 Add spending analytics
+- 🏦 Multi-user account support
 
-🖥 Add graphical user interface (Tkinter)
+## 📜 License
 
-🌐 Convert to web app (Flask/Django)
+This project is open-source and available under the MIT License.
 
-📊 Add spending analytics
-
-🏦 Multi-user account support
-
-📜 License
-
-👨‍💻 Author.
+## 👨‍💻 Author
 
 Allan Kamau
 Aspiring Software Developer
-GitHub: https://github.com/Allankw-dev
-
-This project is open-source and available under the MIT License..
+GitHub: [Allankw-dev](https://github.com/Allankw-dev)
