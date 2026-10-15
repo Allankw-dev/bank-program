@@ -1,4 +1,5 @@
 # bank-program..
+
 🏦 Secure Bank Account Management System.
 
 A secure, console-based banking system built with Python that allows users to manage their account balance, perform transactions, and securely authenticate using a 4-digit PIN.
@@ -96,7 +97,7 @@ datetime
 
 Object-Oriented Programming principles
 
-📦 Installation & Setup
+📦 Installation \& Setup
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/bank-account-system.git
 
@@ -104,7 +105,8 @@ git clone https://github.com/yourusername/bank-account-system.git
 cd bank-account-system
 
 3️⃣ Run the Program
-python bank_account.py
+python bank\_account.py
+
 
 
 Works perfectly in:
@@ -127,9 +129,9 @@ Data is automatically saved after every transaction
 
 📁 Project Structure
 📦 bank-account-system
- ┣ 📜 bank_account.py
- ┣ 📜 account.json
- ┗ 📜 README.md
+┣ 📜 bank\_account.py
+┣ 📜 account.json
+┗ 📜 README.md
 
 🧠 What This Project Demonstrates
 
@@ -163,3 +165,4 @@ Aspiring Software Developer
 GitHub: https://github.com/Allankw-dev
 
 This project is open-source and available under the MIT License..
+
